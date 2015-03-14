@@ -30,6 +30,7 @@ When(/^I enter the Username as "([^"]*)" and I enter the password as "([^"]*)"$/
 	query("* id:'CustomerEmail'", :setText => "#{arg1}")
 	query("* id:'CustomerPassword'", :setText => "#{arg2}")
 
+
 end
 
 
