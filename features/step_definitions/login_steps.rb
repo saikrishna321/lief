@@ -29,8 +29,6 @@ end
 When(/^I enter the Username as "([^"]*)" and I enter the password as "([^"]*)"$/) do |arg1, arg2|
 	query("* id:'CustomerEmail'", :setText => "#{arg1}")
 	query("* id:'CustomerPassword'", :setText => "#{arg2}")
-
-
 end
 
 
