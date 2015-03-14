@@ -60,8 +60,8 @@
       <file leaf-file-name="00_my_first.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/00_my_first.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8022284" vertical-offset="0" max-vertical-offset="432">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.7130919" vertical-offset="0" max-vertical-offset="384">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -736,8 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/00_my_first.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8022284" vertical-offset="0" max-vertical-offset="432">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.7130919" vertical-offset="0" max-vertical-offset="384">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
           <folding />
         </state>
       </provider>
