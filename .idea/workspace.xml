@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="854632fa-1179-4650-b0ae-3e8fee3395d8" name="Default" comment="" />
+    <list default="true" id="854632fa-1179-4650-b0ae-3e8fee3395d8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Grocery_vso_git/updated_checkout_code/Grocery.Automation.Droid/Android_GHS_Phone_Regression/features/bugs.feature" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Grocery_vso_git/updated_checkout_code/Grocery.Automation.Droid/Android_GHS_Phone_Regression/GemFile" afterPath="$USER_HOME$/Grocery_vso_git/updated_checkout_code/Grocery.Automation.Droid/Android_GHS_Phone_Regression/GemFile" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Grocery_vso_git/updated_checkout_code/Grocery.Automation.Droid/Android_GHS_Phone_Regression/features/basket.feature" afterPath="$USER_HOME$/Grocery_vso_git/updated_checkout_code/Grocery.Automation.Droid/Android_GHS_Phone_Regression/features/basket.feature" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Grocery_vso_git/updated_checkout_code/Grocery.Automation.Droid/Android_GHS_Phone_Regression/features/checkout.feature" afterPath="$USER_HOME$/Grocery_vso_git/updated_checkout_code/Grocery.Automation.Droid/Android_GHS_Phone_Regression/features/checkout.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/login_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/login_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="calabash 2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -43,8 +50,8 @@
       <file leaf-file-name="login_steps.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/login_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43362832" vertical-offset="188" max-vertical-offset="640">
-              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.82300884" vertical-offset="188" max-vertical-offset="656">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -134,14 +141,17 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$USER_HOME$/Grocery_vso_git/updated_checkout_code/Grocery.Automation.Droid/Android_GHS_Phone_Regression/GemFile" />
         <option value="$PROJECT_DIR$/features/00_my_first.feature" />
-        <option value="$PROJECT_DIR$/features/step_definitions/login_steps.rb" />
         <option value="$PROJECT_DIR$/features/01_browsing menu.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/menu_steps.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/login_steps.rb" />
       </list>
     </option>
   </component>
@@ -154,7 +164,7 @@
     <option name="width" value="1440" />
     <option name="height" value="833" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -493,6 +503,9 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="854632fa-1179-4650-b0ae-3e8fee3395d8" name="Default" comment="" />
@@ -723,8 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/login_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43362832" vertical-offset="188" max-vertical-offset="640">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.82300884" vertical-offset="188" max-vertical-offset="656">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
