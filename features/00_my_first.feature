@@ -16,4 +16,6 @@ Feature:Login
 	   And I click on Login button
 	   Then I should see the user logged in
 
+	   Scenario: Github Practice
+
 
