@@ -1,0 +1,49 @@
+start_test_server_in_background
+start_test_server_in_background
+start_test_server_in_background
+touch("* id: 'CustomerEmail'")
+touch("* id: 'CustomerEmail'")
+touch("* marked: 'Email'")
+query("*")
+query("* id:'SignInNowButton'")
+touch("* id:'SignInNowButton'")
+touch("* marked:'Login Now'")
+query("* marked:'Login Now'",setText=>'live@ydqa.de')
+query("* marked:'Login Now'",setText=>"live@ydqa.de")
+query("* marked:'Login Now'",:setText=>"live@ydqa.de")
+query("* marked:'Email'",:setText=>"live@ydqa.de")
+query("* marked:'Email'",:setText=>'live@ydqa.de')
+query("* marked:'Email'",:setText=>'live@ydqa.de')
+query("* id: 'SignInNowButton'",:text)
+query("* id: 'SignInNowButton'")
+query("* id: 'SignInNowButton'")
+query("* id:'SignInNowButton'")
+query("* id:'CustomerEmail'", :setText => 'teting@gmail.com')
+query("* id:'SignInNowButton'",:text)
+exit
+start_test_server_in_background
+calabash-android run "C:\Users\Sneha Karthik\Desktop\Lieferando.de_com.yopeso.lieferando_3.3.2_162.apk"
+calabash-android run "C:\Users\Sneha Karthik\Desktop\Lieferando.de_com.yopeso.lieferando_3.3.2_162.apk"
+exit
+start_test_server_in_background
+touch("* marked:'OK'")
+exit
+start_test_server_in_background
+touch("* marked:'Order Now'")
+touch("* marked:'OK'")
+touch("* class:'TextView'")
+touch("* marked:'Order Now'")
+touch("* marked:'Order Now'")
+exit
+start_test_server_in_background
+performAction('drag', 50, 50, 50, 20, 10)
+performAction('drag', 50, 50, 50, 20, 10)
+performAction('drag', 50, 50, 50, 20, 10)
+performAction('drag', 50, 50, 50, 20, 10)
+performAction('drag', 50, 50, 50, 20, 10)
+performAction('drag', 50, 50, 50, 20, 10)
+performAction('drag', 99, 10, 50, 50, 5)
+performAction('drag', 99, 10, 50, 50, 5)
+performAction('drag', 99, 10, 50, 50, 2)
+performAction('drag', 99, 10, 50, 50, 10)
+exit
