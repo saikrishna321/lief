@@ -24,4 +24,5 @@ Then (/^i should see user in menu page$/) do
 	sleep 5
 	user_in_menu_page=query("* marked:'My stamps'", :isEnabled)[0]
 	expect(user_in_menu_page).to eq(true)
+	touch("* marked:'filterIV1'")
 end
