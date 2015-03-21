@@ -1,11 +1,3 @@
-start_test_server_in_background
-start_test_server_in_background
-start_test_server_in_background
-touch("* id: 'CustomerEmail'")
-touch("* id: 'CustomerEmail'")
-touch("* marked: 'Email'")
-query("*")
-query("* id:'SignInNowButton'")
 touch("* id:'SignInNowButton'")
 touch("* marked:'Login Now'")
 query("* marked:'Login Now'",setText=>'live@ydqa.de')
@@ -46,4 +38,13 @@ performAction('drag', 99, 10, 50, 50, 5)
 performAction('drag', 99, 10, 50, 50, 5)
 performAction('drag', 99, 10, 50, 50, 2)
 performAction('drag', 99, 10, 50, 50, 10)
+exit
+start_test_server_in_background
+query("* marked:'Zip code'", :setText => '01070')
+touch("* marked:'Zip code'", :setText => '01070')
+query("* id:'SearchView'", :setText => '01070')
+query("* id:'SearchView'", :setText => '01070')
+touch("* id:'LocateView'")
+touch("* id:'SearchView'")
+cucumber
 exit
