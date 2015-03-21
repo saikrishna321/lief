@@ -1,9 +1,3 @@
-start_test_server_in_background
-start_test_server_in_background
-start_test_server_in_background
-touch("* id: 'CustomerEmail'")
-touch("* id: 'CustomerEmail'")
-touch("* marked: 'Email'")
 query("*")
 query("* id:'SignInNowButton'")
 touch("* id:'SignInNowButton'")
@@ -46,4 +40,11 @@ performAction('drag', 99, 10, 50, 50, 5)
 performAction('drag', 99, 10, 50, 50, 5)
 performAction('drag', 99, 10, 50, 50, 2)
 performAction('drag', 99, 10, 50, 50, 10)
+exit
+start_test_server_in_background
+query("*")
+clear
+clear
+exit
+start_test_server_in_background
 exit
