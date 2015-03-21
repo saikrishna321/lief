@@ -25,11 +25,19 @@ Then(/^I should see the user logged in$/) do
 	touch("* id:'AccountMenuTitle'")
 	user_logged_in=query("* marked:'Log Out'", :isEnabled)[0]
 	expect(user_logged_in).to eq(true)
+
 end
+
 When(/^I enter the Username as "([^"]*)" and I enter the password as "([^"]*)"$/) do |arg1, arg2|
 	query("* id:'CustomerEmail'", :setText => "#{arg1}")
 	query("* id:'CustomerPassword'", :setText => "#{arg2}")
-	
 end
 
-
+Given (/^i am logged in as a user$/) do
+	steps %Q{
+	   Given i'm on application landing page
+	   When I enter the Username
+	   And I enter the password
+	   And I click on Login button
+	}
+end
