@@ -32,3 +32,12 @@ When(/^I enter the Username as "([^"]*)" and I enter the password as "([^"]*)"$/
 	query("* id:'CustomerEmail'", :setText => "#{arg1}")
 	query("* id:'CustomerPassword'", :setText => "#{arg2}")
 end
+
+Given (/^i am logged in as a user$/) do
+	steps %Q{
+	   Given i'm on application landing page
+	   When I enter the Username
+	   And I enter the password
+	   And I click on Login button
+	}
+end

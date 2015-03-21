@@ -15,4 +15,3 @@ Feature:Login
 	   When I enter the Username as "live@ydqa.de" and I enter the password as "testen"
 	   And I click on Login button
 	   Then I should see the user logged in
-

@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+query("*")
+query("* id:'SignInNowButton'")
+>>>>>>> origin/master
 touch("* id:'SignInNowButton'")
 touch("* marked:'Login Now'")
 query("* marked:'Login Now'",setText=>'live@ydqa.de')
@@ -40,6 +45,7 @@ performAction('drag', 99, 10, 50, 50, 2)
 performAction('drag', 99, 10, 50, 50, 10)
 exit
 start_test_server_in_background
+<<<<<<< HEAD
 query("* marked:'Zip code'", :setText => '01070')
 touch("* marked:'Zip code'", :setText => '01070')
 query("* id:'SearchView'", :setText => '01070')
@@ -47,4 +53,11 @@ query("* id:'SearchView'", :setText => '01070')
 touch("* id:'LocateView'")
 touch("* id:'SearchView'")
 cucumber
+=======
+query("*")
+clear
+clear
+exit
+start_test_server_in_background
+>>>>>>> origin/master
 exit
