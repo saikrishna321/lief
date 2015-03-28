@@ -14,11 +14,11 @@ end
 And(/^I enter the password$/) do
 	query("* id:'CustomerPassword'", :setText => 'testen')
 end
-
 And(/^I click on Login button$/) do
-	wait_for_elements_exist ["* marked:'Login Now'"], :timeout => 30
+	wait_for_elements_exist ["* marked:'Login Now'"], :timeout => 25
 	touch("* marked:'Login Now'")
 end
+
 
 Then(/^I should see the user logged in$/) do
 	wait_for_elements_exist ["* id:'AccountMenuTitle'"], :timeout => 30
