@@ -7,10 +7,10 @@ end
 And(/^i will enter payment details$/) do
   scroll_up
   performAction('execute_javascript',"(document.getElementById('cardholder')).scrollIntoView(true)")
-  enter_text("webView css:'#cardholder'",'Matthias Laug')
+  enter_text("webView css:'#cardholder'",'sneha')
   touch("webView css:'#cardholder'")
 
-  enter_text("webView css:'#pan'", 5472686013431402)
+  enter_text("webView css:'#pan'", 12345678)
   touch("* id:'CardRadio'")
   touch("webView css:'#expMonth'")
   touch("webView css:'#expMonth' index:2")
